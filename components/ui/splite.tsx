@@ -48,7 +48,7 @@ class SplineErrorBoundary extends Component<
   render() {
     if (this.state.hasError) {
       return (
-        <div className="flex h-full w-full items-center justify-center rounded-[2rem] border border-slate-200 bg-white/70 text-sm text-slate-500">
+        <div className="flex h-full w-full items-center justify-center rounded-[2rem] border border-amber-950/12 bg-yellow-50/70 text-sm text-amber-950/60">
           3D preview is unavailable on this device.
         </div>
       );

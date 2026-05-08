@@ -32,6 +32,7 @@ export function HeroSpline() {
           <SplineScene scene={SCENE_URL} className="h-full w-full" />
         </div>
       ) : null}
+      <div className="absolute inset-x-[-24%] bottom-0 z-10 hidden h-36 bg-yellow-300 lg:block" />
     </div>
   );
 }
